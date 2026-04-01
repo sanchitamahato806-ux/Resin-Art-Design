@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resin Art Studio | Premium Custom Orders</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Resin Art Studio</h1>
+  <nav>
+    <a href="#gallery">Gallery</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#order">Order</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="box">
+    <h2>Custom Resin Art</h2>
+    <p>Handmade premium pieces crafted from your ideas</p>
+    <a class="btn" href="#order">Order Now</a>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <h2>Our Work</h2>
+  <div class="grid">
+    <div class="card"><img src="images/img2.jpg" onclick="openImg(this.src)"><div class="overlay">Custom Keychains</div></div>
+    <div class="card"><img src="images/img3.jpg" onclick="openImg(this.src)"><div class="overlay">Photo Frames</div></div>
+    <div class="card"><img src="images/img4.jpg" onclick="openImg(this.src)"><div class="overlay">Name Art</div></div>
+    <div class="card"><img src="images/img5.jpg" onclick="openImg(this.src)"><div class="overlay">Couple Gifts</div></div>
+    <div class="card"><img src="images/img6.jpg" onclick="openImg(this.src)"><div class="overlay">Wedding Resin</div></div>
+    <div class="card"><img src="images/img7.jpg" onclick="openImg(this.src)"><div class="overlay">Bookmarks</div></div>
+    <div class="card"><img src="images/img8.jpg" onclick="openImg(this.src)"><div class="overlay">Jewelry</div></div>
+    <div class="card"><img src="images/img9.jpg" onclick="openImg(this.src)"><div class="overlay">Wall Art</div></div>
+    <div class="card"><img src="images/img10.jpg" onclick="openImg(this.src)"><div class="overlay">Custom Orders</div></div>
+  </div>
+</section>
+
+<section class="section" id="pricing">
+  <h2>Pricing</h2>
+  <div class="price">
+    <div>Keychains<br>₹199–₹399</div>
+    <div>Frames<br>₹599–₹1499</div>
+    <div>Custom Gifts<br>₹999+</div>
+  </div>
+</section>
+
+<section class="section" id="order">
+  <h2>Place Order</h2>
+  <form onsubmit="sendWhatsApp(); return false;">
+    <input id="name" placeholder="Your Name" required>
+    <textarea id="idea" placeholder="Your Design Idea" required></textarea>
+    <input id="budget" placeholder="Your Budget">
+    <button class="btn" type="submit">Send on WhatsApp</button>
+  </form>
+</section>
+
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img">
+</div>
+
+<footer>
+  © 2026 Resin Art Studio | Handmade Premium Creations
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
